@@ -1,3 +1,5 @@
+/*THIS IS HOW I GOT THE MOVIE POSTER ON THE BACKGROUND*/
+
 html{
   position:absolute ;
   background-image: url(imgs/back-to-the-future-background.jpg);
@@ -9,19 +11,20 @@ html{
 }
 
 body{
-  /* display:flex; */
-  /* flex-direction: column; */
+/*THIS IS MY FONT AND KEEPS ALL THE TEXT WITHIN THE POSTER*/
   margin: 0 100px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 header p {
+  /*HOW I GOT THE STEVEN SPIELBERG AND A ROBERT ZEMECKIS FILM TO PRESENT SMALL ABOVE AND BELOW THE TITLE*/
   text-align: left;
   font-size:small;
   margin-top:50px ;
 }
 
 h1{
+  /*BACK TO THE FUTURE TITLE COLOR AND SPACING*/
   color: gold;
   text-align:left;
   margin-top:20px;
@@ -30,26 +33,32 @@ h1{
 }
 
 .tagline{
+  /*TAGLINE FOR THE POSTER, MADE IT SMALL AND ALIGNED TO THE LEFT */
   text-align:left;
   font-size:0.8rem;
   line-height:1.4;
 }
 footer{
+  /* FOOTER GAVE ME SOME TROUBLE BUT I THINK I DID OK? HAD TO USE MARGIN TOP TO BRING IT DOWN */
   margin-top:650px ;
   text-align:  right;
   line-height: 1rem;
 }
 nav a {
+  /*STYLED THE LINKS IN THE SAME COLOR AS THE TITLE*/
   color:gold;
   font-weight:bold;
   text-decoration:none;
 }
 nav a:hover{
+  /*UNDERLINE LINKS WHEN HOVERED ON*/
   text-decoration: underline;
 }
 footer small{
+  /*MADE THE TITLES EXTRA SMALL WITH THIS*/
   font-size:0.5em;
 }
 footer strong{
+  /*BOLDED NAMES OF ACTORS, DIRECTORS AND PRODUCERS */
   font-weight:bold;
 }
