@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* keeps content centered and readable */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* header styles*/
+
+header {
+    background-color: #e60012; 
+    color: white;
+    padding: 30px;
+    text-align: center;
+    
+}
+header img{
+    float:left;
+    display:block;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* navigation styles */
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+/* navigation links */
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* simple hover effect */
+nav a:hover {
+    background-color: #444;
+}
+
+/* text and element styles */
+
+h2, h3 {
+    color: #e60012;
+}
+
+p {
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* image styles*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+}
+
+/* form styles */
+
+form {
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e60012;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* button hover effect */
+button:hover {
+    background-color: #c40010;
+}
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
