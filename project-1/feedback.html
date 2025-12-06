@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <Title>Nintendo Game Boy Customer Feedback</Title>
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Game Boy Player Feedback</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Promotion</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="corporate.html">Corporate Info</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Tell Us What You Think</h2>
+      
+            <section>
+                <p>
+                    Here at Nintendo we value player feedback. With your comments you can help us improve our products and continue delivering high quailty products for everyone.
+                </p>
+            </section>
+            <!--Customer feedback form-->
+            <form id="feedbackForm">
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="rating">Overall Rating</label><br>
+                <select id="rating" name="rating">
+                    <option value="5">5 - Excellent</option>
+                    <option value="5">4 - Very Good</option>
+                    <option value="5">3 - Good</option>
+                    <option value="5">2 - Fair</option>
+                    <option value="5">1 - Poor</option>
+                </select><br>
+
+                <label for="comments">Your Comments</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br>
+
+                <!---Button triggers JavaScript function-->
+                <button type="button" onclick="submitFeedback()"> Submit Feedback</button>
+            </form> 
+         </main>
+         <footer>
+            <p>
+                <small>1989 Nintendo Company Ltd.</small>
+            </p>
+         </footer>
+    </body>
+</html>
