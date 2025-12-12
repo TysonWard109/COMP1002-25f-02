@@ -1,4 +1,4 @@
-//Displays our comfirmation message when our feedback form in submitted
+//Displays a comfirmation message when our feedback form in submitted
 function submitFeedback(){
     const name = document.getElementById("name").value;
 
